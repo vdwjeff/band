@@ -10,7 +10,11 @@
             href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
             rel="stylesheet"
         />
-        <title>Noise Displace - Copy</title>
+        <link
+            href="./style.css"
+            rel="stylesheet"
+        />
+        <title>Mono Blue Band</title>
     </head>
     <body>
         <div id="wrapper">
@@ -104,11 +108,10 @@
             </main>
         </div>
         <script src="https://unpkg.com/three@^0.131.0/build/three.min.js"></script>
-        <script src="/src/runtime.js"></script>
-        <script type="module" src="/src/main.js"></script>
+        <script src="runtime.js"></script>
         <script>
             const app = new SpeRuntime.Application();
-            app.start("./src/scene.json");
+            app.start("./scene.json");
         </script>
     </body>
 </html>
